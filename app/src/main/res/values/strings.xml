@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <resources>
+        <array name="Exposurecodition">
+            <item>Mild</item>
+            <item>Moderate</item>
+            <item>Severe</item>
+            <item>VerySevere</item>
+            <item>Extreme</item>
+        </array>
+        <array name="Gradeofconcrete">
+            <item>M10</item>
+            <item>M15</item>
+            <item>M20</item>
+            <item>M25</item>
+            <item>M30</item>
+            <item>M35</item>
+            <item>M40</item>
+            <item>M45</item>
+            <item>M50</item>
+            <item>M55</item>
+            <item>M60</item>
+        </array>
+        <array name="HSCTypesofCement">
+            <item>OPC 33</item>
+            <item>OPC 43</item>
+            <item>OPC 53</item>
+        </array>
+        <array name="MethodofPlacing">
+            <item>No pumping</item>
+            <item>pumping</item>
+        </array>
+        <array name="NominalSizeofAggregate">
+            <item>10</item>
+            <item>20</item>
+            <item>40</item>
+        </array>
+        <array name="SCCTypesofAggregate">
+            <item>Angular coarse aggregate</item>
+        </array>
+        <array name="SR">
+            <item>SR1</item>
+            <item>SR2</item>
+        </array>
+        <array name="SiteControl">
+            <item>Good</item>
+            <item>Fair</item>
+        </array>
+        <array name="SlumpFlowClass">
+            <item>550</item>
+            <item>560</item>
+            <item>570</item>
+            <item>580</item>
+            <item>590</item>
+            <item>600</item>
+            <item>610</item>
+            <item>620</item>
+            <item>630</item>
+            <item>640</item>
+            <item>650</item>
+            <item>660</item>
+            <item>670</item>
+            <item>680</item>
+            <item>690</item>
+            <item>700</item>
+            <item>710</item>
+            <item>720</item>
+            <item>730</item>
+            <item>740</item>
+            <item>750</item>
+            <item>760</item>
+            <item>770</item>
+            <item>780</item>
+            <item>790</item>
+            <item>800</item>
+            <item>810</item>
+            <item>820</item>
+            <item>830</item>
+            <item>840</item>
+            <item>850</item>
+        </array>
+        <array name="TypesofAggregate">
+            <item>Crushed angular</item>
+            <item>Sub angular</item>
+            <item>Gravel and Crused</item>
+            <item>Remould gravel</item>
+        </array>
+        <array name="TypesofCement">
+            <item>PPC</item>
+            <item>OPC 33</item>
+            <item>OPC 43</item>
+            <item>OPC 53</item>
+        </array>
+        <array name="TypesofConcrete">
+            <item>Plain Concrete</item>
+            <item>Reinforced Concrete</item>
+        </array>
+        <array name="Vfunnelflowtime">
+            <item>1sec</item>
+            <item>2sec</item>
+            <item>3sec</item>
+            <item>4sec</item>
+            <item>5sec</item>
+            <item>6sec</item>
+            <item>7sec</item>
+            <item>8sec</item>
+            <item>9sec</item>
+            <item>10sec</item>
+            <item>11sec</item>
+            <item>12sec</item>
+            <item>13sec</item>
+            <item>14sec</item>
+            <item>15sec</item>
+            <item>16sec</item>
+            <item>17sec</item>
+            <item>18sec</item>
+            <item>19sec</item>
+            <item>20sec</item>
+            <item>21sec</item>
+            <item>22sec</item>
+            <item>23sec</item>
+            <item>24sec</item>
+            <item>25sec</item>
+        </array>
+        <array name="ZoneofAggregate">
+            <item>Zone 1</item>
+            <item>Zone 2</item>
+            <item>Zone 3</item>
+            <item>Zone 4</item>
+        </array>
+        <array name="aggregate_condi">
+            <item>SSD</item>
+            <item>Dry or Wet</item>
+        </array>
+        <array name="com_google_android_gms_fonts_certs">
+            <item>@array/com_google_android_gms_fonts_certs_dev</item>
+            <item>@array/com_google_android_gms_fonts_certs_prod</item>
+        </array>
+        <array name="com_google_android_gms_fonts_certs_dev">
+            <item>MIIEqDCCA5CgAwIBAgIJANWFuGx90071MA0GCSqGSIb3DQEBBAUAMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTAeFw0wODA0MTUyMzM2NTZaFw0zNTA5MDEyMzM2NTZaMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBANbOLggKv+IxTdGNs8/TGFy0PTP6DHThvbbR24kT9ixcOd9W+EaBPWW+wPPKQmsHxajtWjmQwWfna8mZuSeJS48LIgAZlKkpFeVyxW0qMBujb8X8ETrWy550NaFtI6t9+u7hZeTfHwqNvacKhp1RbE6dBRGWynwMVX8XW8N1+UjFaq6GCJukT4qmpN2afb8sCjUigq0GuMwYXrFVee74bQgLHWGJwPmvmLHC69EH6kWr22ijx4OKXlSIx2xT1AsSHee70w5iDBiK4aph27yH3TxkXy9V89TDdexAcKk/cVHYNnDBapcavl7y0RiQ4biu8ymM8Ga/nmzhRKya6G0cGw8CAQOjgfwwgfkwHQYDVR0OBBYEFI0cxb6VTEM8YYY6FbBMvAPyT+CyMIHJBgNVHSMEgcEwgb6AFI0cxb6VTEM8YYY6FbBMvAPyT+CyoYGapIGXMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbYIJANWFuGx90071MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEEBQADggEBABnTDPEF+3iSP0wNfdIjIz1AlnrPzgAIHVvXxunW7SBrDhEglQZBbKJEk5kT0mtKoOD1JMrSu1xuTKEBahWRbqHsXclaXjoBADb0kkjVEJu/Lh5hgYZnOjvlba8Ld7HCKePCVePoTJBdI4fvugnL8TsgK05aIskyY0hKI9L8KfqfGTl1lzOv2KoWD0KWwtAWPoGChZxmQ+nBli+gwYMzM1vAkP+aayLe0a1EQimlOalO762r0GXO0ks+UeXde2Z4e+8S/pf7pITEI/tP+MxJTALw9QUWEv9lKTk+jkbqxbsh8nfBUapfKqYn0eidpwq2AzVp3juYl7//fKnaPhJD9gs=</item>
+        </array>
+        <array name="com_google_android_gms_fonts_certs_prod">
+            <item>MIIEQzCCAyugAwIBAgIJAMLgh0ZkSjCNMA0GCSqGSIb3DQEBBAUAMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDAeFw0wODA4MjEyMzEzMzRaFw0zNjAxMDcyMzEzMzRaMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBAKtWLgDYO6IIrgqWbxJOKdoR8qtW0I9Y4sypEwPpt1TTcvZApxsdyxMJZ2JORland2qSGT2y5b+3JKkedxiLDmpHpDsz2WCbdxgxRczfey5YZnTJ4VZbH0xqWVW/8lGmPav5xVwnIiJS6HXk+BVKZF+JcWjAsb/GEuq/eFdpuzSqeYTcfi6idkyugwfYwXFU1+5fZKUaRKYCwkkFQVfcAs1fXA5V+++FGfvjJ/CxURaSxaBvGdGDhfXE28LWuT9ozCl5xw4Yq5OGazvV24mZVSoOO0yZ31j7kYvtwYK6NeADwbSxDdJEqO4k//0zOHKrUiGYXtqw/A0LFFtqoZKFjnkCAQOjgdkwgdYwHQYDVR0OBBYEFMd9jMIhF1Ylmn/Tgt9r45jk14alMIGmBgNVHSMEgZ4wgZuAFMd9jMIhF1Ylmn/Tgt9r45jk14aloXikdjB0MQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLR29vZ2xlIEluYy4xEDAOBgNVBAsTB0FuZHJvaWQxEDAOBgNVBAMTB0FuZHJvaWSCCQDC4IdGZEowjTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBAUAA4IBAQBt0lLO74UwLDYKqs6Tm8/yzKkEu116FmH4rkaymUIE0P9KaMftGlMexFlaYjzmB2OxZyl6euNXEsQH8gjwyxCUKRJNexBiGcCEyj6z+a1fuHHvkiaai+KL8W1EyNmgjmyy8AW7P+LLlkR+ho5zEHatRbM/YAnqGcFh5iZBqpknHf1SKMXFh4dd239FJ1jWYfbMDMy3NS5CTMQ2XFI1MvcyUTdZPErjQfTbQe3aDQsQcafEQPD+nqActifKZ0Np0IS9L9kR/wbNvyz6ENwPiTrjV2KRkEjH78ZMcUQXg0L3BYHJ3lc69Vs5Ddf9uUGGMYldX3WfMBEmh/9iFBDAaTCK</item>
+        </array>
+        <array name="finecontent">
+            <item>1%</item>
+            <item>2%</item>
+            <item>3%</item>
+            <item>4%</item>
+            <item>5%</item>
+            <item>6%</item>
+            <item>7%</item>
+            <item>8%</item>
+            <item>9%</item>
+            <item>10%</item>
+        </array>
+        <array name="hsc_NominalSizeofAggregate">
+            <item>10</item>
+            <item>12.5</item>
+            <item>20</item>
+        </array>
+        <array name="hsc_ZoneofAggregate">
+            <item>Zone 1</item>
+            <item>Zone 2</item>
+            <item>Zone 3</item>
+        </array>
+        <array name="hsc_gradeofconcrete">
+            <item>M65</item>
+            <item>M70</item>
+            <item>M75</item>
+            <item>M80</item>
+            <item>M90</item>
+            <item>M100</item>
+        </array>
+        <array name="massSizeofaggregate">
+            <item>40</item>
+            <item>80</item>
+            <item>150</item>
+        </array>
+        <array name="massTypesofaggregate">
+            <item>Rounded</item>
+            <item>Angular</item>
+        </array>
+        <array name="powdercontent">
+            <item>400</item>
+            <item>410</item>
+            <item>420</item>
+            <item>430</item>
+            <item>440</item>
+            <item>450</item>
+            <item>460</item>
+            <item>470</item>
+            <item>480</item>
+            <item>490</item>
+            <item>500</item>
+            <item>510</item>
+            <item>520</item>
+            <item>530</item>
+            <item>540</item>
+            <item>550</item>
+            <item>560</item>
+            <item>570</item>
+            <item>580</item>
+            <item>590</item>
+            <item>600</item>
+        </array>
+        <array name="scc_slumpflowclass">
+            <item>SF1(550-650mm)</item>
+            <item>SF2(660-750mm)</item>
+            <item>SF3(760-850mm)</item>
+        </array>
+        <array name="watercontent">
+            <item>125</item>
+            <item>130</item>
+            <item>135</item>
+            <item>140</item>
+            <item>145</item>
+            <item>150</item>
+            <item>155</item>
+            <item>160</item>
+            <item>165</item>
+            <item>170</item>
+            <item>175</item>
+            <item>180</item>
+            <item>185</item>
+            <item>190</item>
+            <item>195</item>
+            <item>200</item>
+            <item>205</item>
+            <item>210</item>
+            <item>215</item>
+            <item>220</item>
+            <item>225</item>
+            <item>230</item>
+            <item>235</item>
+            <item>240</item>
+            <item>245</item>
+            <item>250</item>
+            <item>255</item>
+            <item>260</item>
+            <item>265</item>
+            <item>270</item>
+        </array>
+        <integer-array name="workability">
+            <item>10</item>
+            <item>15</item>
+            <item>20</item>
+            <item>25</item>
+            <item>30</item>
+            <item>35</item>
+            <item>40</item>
+            <item>45</item>
+            <item>50</item>
+            <item>55</item>
+            <item>60</item>
+            <item>65</item>
+            <item>70</item>
+            <item>75</item>
+            <item>80</item>
+            <item>85</item>
+            <item>90</item>
+            <item>100</item>
+            <item>105</item>
+            <item>110</item>
+            <item>115</item>
+            <item>120</item>
+            <item>125</item>
+            <item>130</item>
+            <item>135</item>
+            <item>140</item>
+            <item>145</item>
+            <item>150</item>
+            <item>155</item>
+            <item>160</item>
+            <item>165</item>
+            <item>170</item>
+            <item>175</item>
+            <item>180</item>
+            <item>185</item>
+            <item>190</item>
+            <item>195</item>
+            <item>200</item>
+        </integer-array>
+
+    <string name="app_name">ConcreteMixCalculator</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+
+
+</resources>

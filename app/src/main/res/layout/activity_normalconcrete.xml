@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:orientation="vertical" android:background="#00b8d4" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="50dp">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <androidx.cardview.widget.CardView android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5dp" android:layout_marginTop="15dp" app:cardCornerRadius="5dp" app:cardElevation="20dp" app:contentPadding="10dp">
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="17dp" android:textColor="#01608c" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="STIPULATIONS FOR PROPORTIONING"/>
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="4">
+                        <TextView android:textSize="16dp" android:textColor="#000000" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Exposure Condition" android:layout_weight="2"/>
+                        <Spinner android:textSize="16dp" android:id="@+id/spinner1" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="2"/>
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="4">
+                        <TextView android:textSize="16dp" android:textColor="#000000" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Types of Concrete" android:layout_weight="2"/>
+                        <Spinner android:textSize="16dp" android:id="@+id/spinner2" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="2"/>
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="4">
+                        <TextView android:textSize="16dp" android:textColor="#000000" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Grade of Concrete" android:layout_weight="2"/>
+                        <Spinner android:textSize="16dp" android:id="@+id/spinner3" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="2"/>
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="4">
+                        <TextView android:textSize="16dp" android:textColor="#000000" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Types of Cement" android:layout_weight="2"/>
+                        <Spinner android:textSize="16dp" android:id="@+id/spinner4" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="2"/>
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="4">
+                        <TextView android:textSize="16dp" android:textColor="#000000" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Workability(mm)" android:layout_weight="2"/>
+                        <Spinner android:textSize="16dp" android:id="@+id/spinner11" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="2"/>
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="4">
+                        <TextView android:textSize="16dp" android:textColor="#000000" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Site Control" android:layout_weight="2"/>
+                        <Spinner android:textSize="16dp" android:id="@+id/spinner9" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="2"/>
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="4">
+                        <TextView android:textSize="16dp" android:textColor="#000000" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Method of Placing" android:layout_weight="2"/>
+                        <Spinner android:textSize="16dp" android:id="@+id/spinner8" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="2"/>
+                    </LinearLayout>
+                    <EditText android:textSize="16dp" android:id="@+id/correction" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:hint="10 percentage correction in Aggregate(%)" android:inputType="numberDecimal"/>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="4">
+                        <TextView android:textSize="16dp" android:textColor="#000000" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Auto w/c Ratio" android:layout_weight="3"/>
+                        <ToggleButton android:id="@+id/manual" android:layout_width="0dp" android:layout_height="wrap_content" android:checked="true" android:layout_weight="1"/>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="6">
+                        <TextView android:textSize="16dp" android:textColor="#000000" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Manual w/c Ratio" android:layout_weight="2.7"/>
+                        <ImageButton android:id="@+id/tt_wc" android:background="#ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:src="@drawable/info" android:layout_weight="1.3"/>
+                        <EditText android:textSize="16dp" android:id="@+id/i_wc_ratio" android:layout_width="0dp" android:layout_height="wrap_content" android:text="0.3" android:layout_weight="2" android:inputType="numberDecimal" android:textAlignment="center"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView android:layout_gravity="center" android:id="@+id/card" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5dp" app:cardCornerRadius="5dp" app:cardElevation="20dp" app:contentPadding="10dp">
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="17dp" android:textColor="#01608c" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="PROPERTIES OF AGGREGATE"/>
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="4">
+                        <TextView android:textSize="16dp" android:textColor="#000000" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Size of Aggregate(mm)" android:layout_weight="2"/>
+                        <Spinner android:textSize="16dp" android:id="@+id/spinner5" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="2"/>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="4">
+                        <TextView android:textSize="16dp" android:textColor="#000000" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Types of Aggregate" android:layout_weight="2"/>
+                        <Spinner android:textSize="16dp" android:id="@+id/spinner6" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="2"/>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="4">
+                        <TextView android:textSize="16dp" android:textColor="#000000" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Zone of Fine Aggregate" android:layout_weight="2"/>
+                        <Spinner android:textSize="16dp" android:id="@+id/spinner7" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="2"/>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="6">
+                        <TextView android:textSize="16dp" android:textColor="#000000" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Aggregate condition" android:layout_weight="2.8"/>
+                        <ImageButton android:id="@+id/naggcondition" android:background="#ffffff" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:src="@drawable/info" android:layout_weight="1.2"/>
+                        <Spinner android:textSize="16dp" android:id="@+id/spinner10" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="2"/>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="4">
+                        <TextView android:textSize="16dp" android:textColor="#000000" android:id="@+id/aca_t" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Water Absorption C.A(%)" android:layout_weight="3"/>
+                        <EditText android:textSize="16dp" android:id="@+id/i_water_ACA" android:visibility="visible" android:layout_width="0dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1" android:inputType="numberDecimal" android:textAlignment="center"/>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="4">
+                        <TextView android:textSize="16dp" android:textColor="#000000" android:id="@+id/afa_t" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Water Absorption F.A(%)" android:layout_weight="3"/>
+                        <EditText android:textSize="16dp" android:id="@+id/i_water_AFA" android:layout_width="0dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1" android:inputType="numberDecimal" android:textAlignment="center"/>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="4">
+                        <TextView android:textSize="16dp" android:textColor="#000000" android:id="@+id/ca_t" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Total Moisture Content C.A(%)" android:layout_weight="3"/>
+                        <EditText android:textSize="16dp" android:id="@+id/i_total_moisture_CA" android:layout_width="0dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1" android:inputType="numberDecimal" android:textAlignment="center"/>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="4">
+                        <TextView android:textSize="16dp" android:textColor="#000000" android:id="@+id/fa_t" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Total Moisture Content F.A(%)" android:layout_weight="3"/>
+                        <EditText android:textSize="16dp" android:id="@+id/i_total_moisture_FA" android:layout_width="0dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1" android:inputType="numberDecimal" android:textAlignment="center"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="5dp" app:cardCornerRadius="5dp" app:cardElevation="20dp" app:contentPadding="10dp">
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <TextView android:textSize="17dp" android:textColor="#01608c" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="CHEMICAL AND MINERAL ADMIXTURE"/>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="4">
+                        <TextView android:textSize="16dp" android:textColor="#000000" android:layout_width="0dp" android:layout_height="match_parent" android:text="Water Reducing Admixture(%)" android:layout_weight="2"/>
+                        <ImageButton android:id="@+id/nchemical_popup" android:background="#ffffff" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginRight="0.9dp" android:layout_marginBottom="10dp" android:src="@drawable/info" android:layout_weight="1"/>
+                        <EditText android:textSize="16dp" android:id="@+id/i_content_admixture" android:layout_width="0dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1" android:inputType="numberDecimal" android:textAlignment="center"/>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="4">
+                        <TextView android:textSize="16dp" android:textColor="#000000" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Flyash(%)" android:layout_weight="2"/>
+                        <ImageButton android:id="@+id/nflyash_popup" android:background="#ffffff" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginRight="0.9dp" android:layout_marginBottom="10dp" android:src="@drawable/info" android:layout_weight="1"/>
+                        <EditText android:textSize="16dp" android:id="@+id/i_content_flyash" android:layout_width="0dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1" android:inputType="numberDecimal" android:textAlignment="center"/>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="4">
+                        <TextView android:textSize="16dp" android:textColor="#000000" android:layout_width="0dp" android:layout_height="wrap_content" android:text="GGBS(%)" android:layout_weight="2"/>
+                        <ImageButton android:id="@+id/nggbs_popup" android:background="#ffffff" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginRight="0.9dp" android:layout_marginBottom="10dp" android:src="@drawable/info" android:layout_weight="1"/>
+                        <EditText android:textSize="16dp" android:id="@+id/i_content_GGBS" android:layout_width="0dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1" android:inputType="numberDecimal" android:textAlignment="center"/>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="4">
+                        <TextView android:textSize="16dp" android:textColor="#000000" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Silica fume(%)" android:layout_weight="2"/>
+                        <ImageButton android:id="@+id/nsilica_popup" android:background="#ffffff" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginRight="0.9dp" android:layout_marginBottom="10dp" android:src="@drawable/info" android:layout_weight="1"/>
+                        <EditText android:textSize="16dp" android:id="@+id/i_content_silicafume" android:layout_width="0dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1" android:inputType="numberDecimal" android:textAlignment="center"/>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="4">
+                        <TextView android:textSize="16dp" android:textColor="#000000" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Metakaoline(%)" android:layout_weight="2"/>
+                        <ImageButton android:id="@+id/nmetakaoline_popup" android:background="#ffffff" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginRight="0.9dp" android:layout_marginBottom="10dp" android:src="@drawable/info" android:layout_weight="1"/>
+                        <EditText android:textSize="16dp" android:id="@+id/i_content_matakaoline" android:layout_width="0dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1" android:inputType="numberDecimal" android:textAlignment="center"/>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="4">
+                        <TextView android:textSize="16dp" android:textColor="#000000" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Rice husk ash(%)" android:layout_weight="2"/>
+                        <ImageButton android:id="@+id/nrice_popup" android:background="#ffffff" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginRight="0.9dp" android:layout_marginBottom="10dp" android:src="@drawable/info" android:layout_weight="1"/>
+                        <EditText android:textSize="16dp" android:id="@+id/i_content_RAH" android:layout_width="0dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1" android:inputType="numberDecimal" android:textAlignment="center"/>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="4">
+                        <TextView android:textSize="16dp" android:textColor="#000000" android:layout_width="0dp" android:layout_height="match_parent" android:text="Cementitious Material\10Content(%)" android:layout_weight="2"/>
+                        <ImageButton android:id="@+id/ncementitious" android:background="#ffffff" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:src="@drawable/info" android:layout_weight="1"/>
+                        <EditText android:textSize="16dp" android:id="@+id/i_ecement_m" android:layout_width="0dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1" android:inputType="numberDecimal" android:textAlignment="center"/>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="4">
+                        <TextView android:textSize="16dp" android:textColor="#000000" android:layout_width="0dp" android:layout_height="match_parent" android:text="Water Reduce due to\10Admixture(%)" android:layout_weight="2"/>
+                        <ImageButton android:id="@+id/nwaterreduced" android:background="#ffffff" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginRight="0.9dp" android:layout_marginBottom="10dp" android:src="@drawable/info" android:layout_weight="1"/>
+                        <EditText android:textSize="16dp" android:id="@+id/water_reduce" android:layout_width="0dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1" android:inputType="numberDecimal" android:textAlignment="center"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5dp" app:cardCornerRadius="5dp" app:cardElevation="20dp" app:contentPadding="10dp">
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="14dp" android:textColor="#ff0000" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="This data can be changed as per laboratory result"/>
+                    <TextView android:textSize="17dp" android:textColor="#01608c" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TEST DATA FOR MATERIALS"/>
+                    <TextView android:textSize="17dp" android:textColor="#01608c" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="(SPECIFIC GRAVITY)"/>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="4">
+                        <TextView android:textSize="16dp" android:textColor="#000000" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Chemical Admixture" android:layout_weight="3"/>
+                        <EditText android:textSize="16dp" android:id="@+id/i_sp_admixture" android:layout_width="0dp" android:layout_height="wrap_content" android:text="1.145" android:layout_weight="1" android:inputType="numberDecimal" android:textAlignment="center"/>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="4">
+                        <TextView android:textSize="16dp" android:textColor="#000000" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Cement" android:layout_weight="3"/>
+                        <EditText android:textSize="16dp" android:id="@+id/i_sp_cement" android:layout_width="0dp" android:layout_height="wrap_content" android:text="3.15" android:layout_weight="1" android:inputType="numberDecimal" android:textAlignment="center"/>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="4">
+                        <TextView android:textSize="16dp" android:textColor="#000000" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Flyash" android:layout_weight="3"/>
+                        <EditText android:textSize="16dp" android:id="@+id/i_sp_flyash" android:layout_width="0dp" android:layout_height="wrap_content" android:text="2.2" android:layout_weight="1" android:inputType="numberDecimal" android:textAlignment="center"/>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="4">
+                        <TextView android:textSize="16dp" android:textColor="#000000" android:layout_width="0dp" android:layout_height="wrap_content" android:text="GGBS" android:layout_weight="3"/>
+                        <EditText android:textSize="16dp" android:id="@+id/i_sp_GGBS" android:layout_width="0dp" android:layout_height="wrap_content" android:text="3.0" android:layout_weight="1" android:inputType="numberDecimal" android:textAlignment="center"/>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="4">
+                        <TextView android:textSize="16dp" android:textColor="#000000" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Silica fume" android:layout_weight="3"/>
+                        <EditText android:textSize="16dp" android:id="@+id/i_sp_silicafume" android:layout_width="0dp" android:layout_height="wrap_content" android:text="2.2" android:layout_weight="1" android:inputType="numberDecimal" android:textAlignment="center"/>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="4">
+                        <TextView android:textSize="16dp" android:textColor="#000000" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Matakaoline" android:layout_weight="3"/>
+                        <EditText android:textSize="16dp" android:id="@+id/i_sp_matakaoline" android:layout_width="0dp" android:layout_height="wrap_content" android:text="2.6" android:layout_weight="1" android:inputType="numberDecimal" android:textAlignment="center"/>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="4">
+                        <TextView android:textSize="16dp" android:textColor="#000000" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Rice ash husk" android:layout_weight="3"/>
+                        <EditText android:textSize="16dp" android:id="@+id/i_sp_RAH" android:layout_width="0dp" android:layout_height="wrap_content" android:text="2.36" android:layout_weight="1" android:inputType="numberDecimal" android:textAlignment="center"/>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="4">
+                        <TextView android:textSize="16dp" android:textColor="#000000" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Coarse Aggregate" android:layout_weight="3"/>
+                        <EditText android:textSize="16dp" android:id="@+id/i_sp_CA" android:layout_width="0dp" android:layout_height="wrap_content" android:text="2.74" android:layout_weight="1" android:inputType="numberDecimal" android:textAlignment="center"/>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="4">
+                        <TextView android:textSize="16dp" android:textColor="#000000" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Fine Aggregate" android:layout_weight="3"/>
+                        <EditText android:textSize="16dp" android:id="@+id/i_sp_FA" android:layout_width="0dp" android:layout_height="wrap_content" android:text="2.65" android:layout_weight="1" android:inputType="numberDecimal" android:textAlignment="center"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5dp" app:cardCornerRadius="5dp" app:cardElevation="20dp" app:contentPadding="10dp">
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="4">
+                        <TextView android:textSize="16dp" android:textColor="#000000" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Wastage Material(%)" android:layout_weight="2"/>
+                        <ImageButton android:id="@+id/nwastage_popup" android:background="#ffffff" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginRight="0.9dp" android:layout_marginBottom="10dp" android:src="@drawable/info" android:layout_weight="1"/>
+                        <EditText android:textSize="16dp" android:id="@+id/i_wastage" android:layout_width="0dp" android:layout_height="wrap_content" android:text="0" android:layout_weight="1" android:inputType="numberDecimal" android:textAlignment="center"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <Button android:textColor="@color/black" android:backgroundTint="@color/white" android:layout_gravity="center_horizontal" android:id="@+id/run" android:layout_width="250dp" android:layout_height="wrap_content" android:text="CALCULATE"/>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:orientation="vertical" android:id="@+id/banner_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" app:layout_constraintBottom_toBottomOf="parent"/>
+</RelativeLayout>
